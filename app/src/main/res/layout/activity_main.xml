@@ -4,4 +4,97 @@
     android:layout_height="match_parent"
     android:orientation="vertical">
 
+    <TextView
+        android:id="@+id/header_title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="20dp"
+        android:fontFamily="sans-serif"
+        android:gravity="center"
+        android:text="Анкета"
+        android:textColor="@color/black"
+        android:textSize="38sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/nameText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:fontFamily="sans-serif"
+        android:text="Имя"
+        android:textColor="@color/black"
+        android:textSize="30sp" />
+
+    <EditText
+        android:id="@+id/editTextName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="10dp"
+        android:fontFamily="sans-serif"
+        android:hint="введите ваше имя"
+        android:textColor="#ff669900"
+        android:textColorHint="#808080"
+        android:textSize="25sp" />
+
+    <TextView
+        android:id="@+id/genderText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:fontFamily="sans-serif"
+        android:text="Выберите пол"
+        android:textColor="@color/black"
+        android:textSize="30sp" />
+
+    <RadioGroup
+        android:id="@+id/radioGroup"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="30dp">
+
+        <RadioButton
+            android:id="@+id/radioButton1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Мужской"
+            android:textSize="20sp" />
+
+        <RadioButton
+            android:id="@+id/radioButton2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Женский"
+            android:textSize="20sp" />
+    </RadioGroup>
+
+    <CheckBox
+        android:id="@+id/checkBox"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:fontFamily="sans-serif"
+        android:text="Уведомления"
+        android:textSize="25sp" />
+
+    <Switch
+        android:id="@+id/switchNotification"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="20dp"
+        android:fontFamily="sans-serif"
+        android:text="Еще уведомления"
+        android:textSize="25sp" />
+
+    <ToggleButton
+        android:id="@+id/toggleButtonNotification"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="20dp" />
+
+    <Button
+        android:id="@+id/buttonEnter"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:fontFamily="sans-serif"
+        android:text="Подтвердить"
+        android:textSize="30sp" />
+
 </LinearLayout>
