@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <EditText
+        android:id="@+id/itText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="10dp"
+        android:inputType="text"
+        android:fontFamily="sans-serif"
+        android:hint="text"
+        android:textColor="@color/black"
+        android:textColorHint="#808080"
+        android:textSize="30sp" />
+
+    <EditText
+        android:id="@+id/itTextPersonName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="textPersonName"
+        android:layout_marginBottom="10dp"
+        android:fontFamily="sans-serif"
+        android:hint="textPersonName"
+        android:textColor="@color/black"
+        android:textColorHint="#808080"
+        android:textSize="30sp" />
+
+    <EditText
+        android:id="@+id/itPhone"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="phone"
+        android:layout_marginBottom="10dp"
+        android:fontFamily="sans-serif"
+        android:hint="phone"
+        android:textColor="@color/black"
+        android:textColorHint="#808080"
+        android:textSize="30sp" />
+
+    <EditText
+        android:id="@+id/itNumber"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="number"
+        android:layout_marginBottom="10dp"
+        android:fontFamily="sans-serif"
+        android:hint="number"
+        android:textColor="@color/black"
+        android:textColorHint="#808080"
+        android:textSize="30sp" />
+
+    <EditText
+        android:id="@+id/itTextPassword"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="textPassword"
+        android:layout_marginBottom="10dp"
+        android:fontFamily="sans-serif"
+        android:hint="textPassword"
+        android:textColor="@color/black"
+        android:textColorHint="#808080"
+        android:textSize="30sp" />
+
+    <EditText
+        android:id="@+id/itTextEmailAddress"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="textEmailAddress"
+        android:layout_marginBottom="10dp"
+        android:fontFamily="sans-serif"
+        android:hint="textEmailAddress"
+        android:textColor="@color/black"
+        android:textColorHint="#808080"
+        android:textSize="30sp" />
+
+</LinearLayout>
